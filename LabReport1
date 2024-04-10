@@ -1,0 +1,13 @@
+# Lab Report 1 - Remote Access and FileSystem (Week 1)
+1. cd
+- **no arguments**
+- **path to directory**
+- **path to file**
+2. ls
+- **no arguments**
+- **path to directory**
+- **path to file**
+3. cat
+- **no arguments**
+- **path to directory**
+- **path to file**

@@ -1,9 +1,9 @@
 # Lab Report 1 - Remote Access and FileSystem (Week 1)
 1. `cd`
 - **no arguments**
-![Image](cdNoArg.png)
-working directory: `/c/Users/sanka/lecture1`
-'cd' with no argument has no specific directory to go into, and takes us to the home directory, or `~` by default.
+![Image](cdNoArg.png) <br/>
+working directory: `/c/Users/sanka/lecture1` <br/>
+'cd' with no argument has no specific directory to go into, and takes us to the home directory, or `~` by default. <br/>
 There was no error.
 - **path to directory**
 ![Image](cdDir.png)

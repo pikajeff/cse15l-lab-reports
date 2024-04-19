@@ -13,7 +13,7 @@ There was no error. <br/>
 - **path to file** <br/>
 ![Image](cdFile.png) <br/>
 working directory: `/c/Users/sanka/lecture1` <br/>
-The `Hello.java` file doesm't contain any other files within itself (it's not a directory), so we cannot 'go' inside of it. This command therefore gives an error. <br/>
+The `Hello.java` file doesn't contain any other files within itself (it's not a directory), so we cannot 'go' inside of it. This command therefore gives an error. <br/>
 There was an error. `cd Hello.java` gives an error because the argument is not a directory that we can enter. <br/>
 2. `ls` <br/>
 - **no arguments** <br/>

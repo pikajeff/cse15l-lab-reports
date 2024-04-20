@@ -3,7 +3,7 @@
 - **no arguments** <br/>
 ![Image](cdNoArg.png) <br/>
 working directory: `/c/Users/sanka/lecture1` <br/>
-'cd' with no argument has no specific directory to go into, and takes us to the home directory, or `~` by default. <br/>
+`cd` with no argument has no specific directory to go into, and takes us to the home directory, or `~` by default. <br/>
 There was no error.
 - **path to directory** <br/>
 ![Image](cdDir.png) <br/>
@@ -24,7 +24,7 @@ There was no error. <br/>
 - **path to directory** <br/>
 ![Image](lsDir.png) <br/>
 working directory: `/c/Users/sanka/lecture1` <br/>
-`ls messages` with a directory as an argument outputs the contents of the specified directory, in this case, `messages`. As a side note, If I tried to ls a directory *outside* the current directory, it would throw an error. <br/>
+`ls messages` with a directory as an argument outputs the contents of the specified directory, in this case, `messages`. As a side note, If I tried to `ls` a directory *outside* the current directory, it would throw an error. <br/>
 There was no error. <br/>
 - **path to file** <br/>
 ![Image](lsFile.png) <br/>

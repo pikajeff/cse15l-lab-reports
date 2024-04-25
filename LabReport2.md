@@ -1,7 +1,7 @@
 # CSE 15L - LAB REPORT #2 
 ## Part 1:
-**CHAT SERVER JAVA CODE**
-![Image](CodeONe.png) <br>
+**CHAT SERVER JAVA CODE** <br>
+![Image](CodeOne.png) <br>
 ![Image](CodeTwo.png) <br>
 **ADD-MESSAGE IMPLEMENTATION 1**
 ![Image](addMessageOne.png) <br>
@@ -11,6 +11,7 @@ Arguments: URI object representing the URL above.<br>
 Changing Values: messages, message, user<br>
 Relevant Field Values Before: messages = "", message=null, user=null<br>
 Relevant Field Values After: messages = "jpolitz: Hello\n"<br>
+**ADD-MESSAGE IMPLEMENTATION 2**
 ![Image](addMessageTwo.png) <br>
 URL: http://localhost:4000/add-message?s=How%20are%20you&user=Sankalp<br>
 Method Called: handleRequest<br>

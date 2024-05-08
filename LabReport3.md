@@ -15,7 +15,7 @@
     `assertArrayEquals(new int[]{ 3 }, input1);`<br>
 	`}`
 4. Symptoms
-5. Bug (Before & After)
+5. Bug (Before & After)<br>
    Before:<br>
      `static void reverseInPlace(int[] arr) {`<br>
     `for(int i = 0; i < arr.length; i += 1) {`<br>

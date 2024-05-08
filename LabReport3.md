@@ -1,11 +1,11 @@
 # Lab Report 3 - Bugs and Commands (Week 5)
 ## Part 1 - Bugs
 1. Failure-Inducing Input<br>
-`  @Test 
-	public void testReverseInPlace2() {
-    int[] input2 = {1, 2, 3, 4};
-    ArrayExamples.reverseInPlace(input2);
-    assertArrayEquals(new int[]{4, 3, 2, 1}, input2);
+`  @Test<br>
+   public void testReverseInPlace() {<br>
+    int[] input = {1, 2, 3, 4};<br>
+    ArrayExamples.reverseInPlace(input);<br>
+    assertArrayEquals(new int[]{4, 3, 2, 1}, input);<br>
 	}`
 2. Non-Failure-Inducing Input
 3. Symptoms

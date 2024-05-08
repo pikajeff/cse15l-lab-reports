@@ -8,7 +8,13 @@
     `assertArrayEquals(new int[]{4, 3, 2, 1}, input);`<br>
 	`}`
 2. Non-Failure-Inducing Input
-3. Symptoms
-4. Bug (Before & After)
-5. The Fix Explained
+`@Test` <br>
+ `public void testReverseInPlace() {``<br>
+    `int[] input1 = { 3 };`<br>
+    `ArrayExamples.reverseInPlace(input1);`<br>
+    `assertArrayEquals(new int[]{ 3 }, input1);`<br>
+	`}`
+4. Symptoms
+5. Bug (Before & After)
+6. The Fix Explained
 ## Part 2 - Researching Commands

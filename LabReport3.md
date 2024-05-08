@@ -7,9 +7,9 @@
     `ArrayExamples.reverseInPlace(input);`<br>
     `assertArrayEquals(new int[]{4, 3, 2, 1}, input);`<br>
 	`}`
-2. Non-Failure-Inducing Input
+2. Non-Failure-Inducing Input<br>
 `@Test` <br>
- `public void testReverseInPlace() {``<br>
+ `public void testReverseInPlace() {`<br>
     `int[] input1 = { 3 };`<br>
     `ArrayExamples.reverseInPlace(input1);`<br>
     `assertArrayEquals(new int[]{ 3 }, input1);`<br>

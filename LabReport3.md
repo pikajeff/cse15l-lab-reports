@@ -15,6 +15,7 @@
     `assertArrayEquals(new int[]{ 3 }, input1);`<br>
 	`}`
 4. Symptoms<br>
+![Image](LR3Symptom.png) <br>
 5. Bug (Before & After)<br>
    Before:<br>
      `static void reverseInPlace(int[] arr) {`<br>

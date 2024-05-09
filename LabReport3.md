@@ -59,7 +59,7 @@ Some specific jargon within the medical fields are oddly capitalized, such as Hu
 `gb-2001-2-12-research0054.txt`<br>
 `gb-2002-3-3-research0012.txt`<br>
 `gb-2002-4-1-r2.txt`<br>
-This specific command helps the user look for the files where dna is a subject, and not each specific linw. This can be useful as the user may want to read files about dna, and isnt looking for every instance of it.<br>
+This specific command helps the user look for the files where dna is a subject, and not each specific line. This can be useful as the user may want to read files about dna, and isnt looking for every instance of it.<br>
 
    b.
    `$ grep -l "2005" *.txt`<br>

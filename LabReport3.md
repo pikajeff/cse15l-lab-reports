@@ -32,3 +32,16 @@
 7. The Fix Explained<br>
    The bugged code (BEFORE) tried to traverse through the array and directly replace values at indexes with the values on the corresponding indexes at the other end, hence trying to reverse the array. However, it failed to realize that when the first few index values are replaced with new values, we lose the values that were initially stored there, that can no longer be retrieved and used to replace the latter part of the array. The reverseInPlace code that I fixed (AFTER) introduced a `temp` variable that stored the index's initial values before replacing them with new values. This way, we don't lose the initial values, and can therefore replace the reverse index values with the stored values.  
 ## Part 2 - Researching Commands
+### Command Chosen: grep
+1. `grep -i` : case-insensitive search<br>
+   `grep -i "cardiovascular" 1468-6708-3-1.txt`<br>
+        `trials to detect survival differences or cardiovascular`<br>
+          `Study design: The Cardiovascular Health`<br>
+          `The Cardiovascular Health Study (CHS) is a`<br>
+          `cardiovascular disease (prevalent heart disease,`<br>
+        `CHS Cardiovascular Health Study`<br>
+	This is useful when I want to look for all the lines that contain the work "cardiovascular" regardless of whether characters are uppercase or lowercase.<br>
+
+3. `grep -l` : restricts search to filenames
+4. `grep -n` : shows the exact line numbers of search
+5. `grep -r` : recursively searches through directories

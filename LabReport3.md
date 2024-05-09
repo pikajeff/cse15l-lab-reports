@@ -43,6 +43,10 @@ a.
         `CHS Cardiovascular Health Study`<br>
 	This is useful when I want to look for all the lines that contain the work "cardiovascular" regardless of whether characters are uppercase or lowercase.<br>
 b.
+`$ grep -i "hufl6800" gb-2003-4-9-r60.txt`<br>
+`composed of HuFL6800 probe sets. Notably, MatchMiner does`<br>
+Some specific jargon within the medical fields are oddly capitalized, such as HuFL6800, so using `grep -i` could make it easier to look for such substances for users without much scientific knowledge.
+
 
 3. `grep -l` : restricts search to filenames<br>
    a. `$ grep -l "dna" *.txt`<br>
@@ -82,8 +86,15 @@ This command is useful in this scenario because the user can look for files that
 `78:    At 8:21, one of the American employees receiving Ong's call in North Carolina...`<br>
 `86:    At 8:38, Ong told Gonzalez that the plane was flying erratically again`<br>
 `92:    At 8:44, Gonzalez reported losing phone contact with Ong.`<br>
-I have cut short the descriptions due to space restrictions, but this command could be very useful in situations where the chronological order of things matter, like in this case where we can see the exact lines in the 911report where Gonzalez is in communication with others, and the number of events that have passed in between.<br>
+The command outputs the specific line numbers of the lines that contain Gonzalez.I have cut short the descriptions due to space restrictions, but this command could be very useful in situations where the chronological order of things matter, like in this case where we can see the exact lines in the 911report where Gonzalez is in communication with others, and the number of events that have passed in between.<br>
    b.
+   `$ grep -n "RNA" rr74.txt`<br>
+`40:        hypoxia from birth and measured NOS mRNA and protein`<br>
+`73:          protein and RNA measurement, and the left lung was fixed`<br>
+`114:          Total RNA was extracted from 100 mg of frozen lung `    <br>
+`118:          2 O. RNA was quantified and samples`<br>
+`125:          Biosystems, Foster City, CA, USA). RNA quantity was`<br>
+This `grep -n` looks for lines that contains "RNA" in the rr74.txt file and outputs their corresponding line numbers as well. This could be useful, if perhaps the user decided to replace all the DNAs with RNA. Then he would know which lines to find "RNA" in, making it simpler.<br>
    
 7. `grep -r` : recursively searches through directories<br>
    a.

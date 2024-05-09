@@ -44,7 +44,7 @@ a.
 	This is useful when I want to look for all the lines that contain the work "cardiovascular" regardless of whether characters are uppercase or lowercase.<br>
 b.
 
-3. `grep -l` : restricts search to filenames
+3. `grep -l` : restricts search to filenames<br>
    a. `$ grep -l "dna" *.txt`<br>
 `1471-2091-2-13.txt`<br>
 `1471-2105-3-6.txt`<br>
@@ -76,7 +76,7 @@ This specific command helps the user look for the files where dna is a subject, 
 `pmed.0020278.txt`<br>
 `pmed.0020281.txt`<br>
 This command is useful in this scenario because the user can look for files that correspond to a specific timeframe, such as articles from the year "2005", in this specific scenario.
-5. `grep -n` : shows the exact line numbers of search
+5. `grep -n` : shows the exact line numbers of search<br>
    a.
    `$ grep -n "Gonzalez" chapter-1.txt`<br>
 `78:    At 8:21, one of the American employees receiving Ong's call in North Carolina...`<br>
@@ -85,7 +85,7 @@ This command is useful in this scenario because the user can look for files that
 I have cut short the descriptions due to space restrictions, but this command could be very useful in situations where the chronological order of things matter, like in this case where we can see the exact lines in the 911report where Gonzalez is in communication with others, and the number of events that have passed in between.<br>
    b.
    
-7. `grep -r` : recursively searches through directories
+7. `grep -r` : recursively searches through directories<br>
    a.
    `$ grep -r "President"`<br>
 `About_LSC/Comments_on_semiannual.txt:President of the United States with the advice and consent of the`<br>

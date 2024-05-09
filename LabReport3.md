@@ -109,6 +109,8 @@ This command was run with `technical/Government` as my working directory. Again,
    `$ grep -r "Charles Katholi"`<br>
    `$ grep -r "Charles Katholi"`<br>
    `biomed/1475-2883-2-11.txt:          Charles Katholi (The University of Alabama, Birmingham) [`<br>
-   This command can also be used to find a certain keywords withing numerous directories and numerous files. `grep -r "Charles Katholi"` was run with `technical` as my working directly, and looked for the particular name within the numberous subdirectory files within it. <br>
+   This command can also be used to find a certain keywords withing numerous directories and numerous files. `grep -r "Charles Katholi"` was run with `technical` as my working directly, and looked for the particular name within the numerous subdirectory files within it. <br>
+### Citation: https://man7.org/linux/man-pages/man1/grep.1.html
+I looked up the commands from the link above, and played along with them on my VSCode command line to figure out what their functions are.
    
    

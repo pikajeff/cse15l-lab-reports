@@ -103,7 +103,11 @@ This `grep -n` looks for lines that contains "RNA" in the rr74.txt file and outp
 `Env_Prot_Agen/final.txt:III. Health and Environmental Benefits of the President's`<br>
 `Media/Barnes_new_job.txt:our national creed. I, for one, will not forget President Bush's`<br>
 `Post_Rate_Comm/Gleiman_EMASpeech.txt:Kappel Commission---appointed by the President to study the future`<br>
-Again, I have cut down the output significantly, however, this shows how I use the `grep -r` command for a directory such as `government` with numerous subdirectories to look for specific words recursively.<br>
+This command was run with `technical/Government` as my working directory. Again, I have cut down the output significantly, however, this shows how I use the `grep -r` command for a directory such as `government` with numerous subdirectories to look for specific words recursively. This command also outputs the specific subdirectory that the line exists in, making it very organized.<br>
    b.
+   `$ grep -r "Charles Katholi"`<br>
+   `$ grep -r "Charles Katholi"`<br>
+   `biomed/1475-2883-2-11.txt:          Charles Katholi (The University of Alabama, Birmingham) [`<br>
+   This command can also be used to find a certain keywords withing numerous directories and numerous files. `grep -r "Charles Katholi"` was run with `technical` as my working directly, and looked for the particular name within the numberous subdirectory files within it. <br>
    
    

@@ -42,7 +42,7 @@ a.
           `cardiovascular disease (prevalent heart disease,`<br>
         `CHS Cardiovascular Health Study`<br>
 	This is useful when I want to look for all the lines that contain the work "cardiovascular" regardless of whether characters are uppercase or lowercase.<br>
-
+b.
 
 3. `grep -l` : restricts search to filenames
    a. `$ grep -l "dna" *.txt`<br>
@@ -55,7 +55,7 @@ a.
 `gb-2001-2-12-research0054.txt`<br>
 `gb-2002-3-3-research0012.txt`<br>
 `gb-2002-4-1-r2.txt`<br>
-This specific command helps the user look for the files where dna is a subject, and not each specific linw. This can be useful as the user may want to read files about dna, and isnt looking for every instance of it.
+This specific command helps the user look for the files where dna is a subject, and not each specific linw. This can be useful as the user may want to read files about dna, and isnt looking for every instance of it.<br>
 
    b.
    `$ grep -l "2005" *.txt`<br>
@@ -82,7 +82,7 @@ This command is useful in this scenario because the user can look for files that
 `78:    At 8:21, one of the American employees receiving Ong's call in North Carolina...`<br>
 `86:    At 8:38, Ong told Gonzalez that the plane was flying erratically again`<br>
 `92:    At 8:44, Gonzalez reported losing phone contact with Ong.`<br>
-I have cut short the descriptions due to space restrictions, but this command could be very useful in situations where the chronological order of things matter, like in this case where we can see the exact lines in the 911report where Gonzalez is in communication with others, and the number of events that have passed in between.
+I have cut short the descriptions due to space restrictions, but this command could be very useful in situations where the chronological order of things matter, like in this case where we can see the exact lines in the 911report where Gonzalez is in communication with others, and the number of events that have passed in between.<br>
    b.
    
 7. `grep -r` : recursively searches through directories
@@ -92,7 +92,7 @@ I have cut short the descriptions due to space restrictions, but this command co
 `Env_Prot_Agen/final.txt:III. Health and Environmental Benefits of the President's`<br>
 `Media/Barnes_new_job.txt:our national creed. I, for one, will not forget President Bush's`<br>
 `Post_Rate_Comm/Gleiman_EMASpeech.txt:Kappel Commission---appointed by the President to study the future`<br>
-Again, I have cut down the output significantly, however, this shows how I use the `grep -r` command for a directory such as `government` with numerous subdirectories to look for specific words recursively.
+Again, I have cut down the output significantly, however, this shows how I use the `grep -r` command for a directory such as `government` with numerous subdirectories to look for specific words recursively.<br>
    b.
    
    

@@ -1,5 +1,5 @@
 # Lab Report 3 - Bugs and Commands (Week 5)
-## Part 1 - Bugs
+## Part 1 - Bugs (ReverseInPlace in ArrayExamples.java)
 1. Failure-Inducing Input<br>
 `@Test`<br>
    `public void testReverseInPlace2() {`<br>

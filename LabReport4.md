@@ -17,13 +17,13 @@
 ## Step 7
 ### Edit the Code using Vim
 1. <br>![Image](VimFile.png) <br> ![Image](BuggedLine.png) <br>
-2. 3
-3. 3
+2. `<v><i><m><space><L><i><s><tab><.><j><tab><enter>` <br> `<:><4><4><enter>` <br> `(hold)<shift><right>(release hold)<left>` <br> `<i><backspace><2><ctrl-c>` <br>  `<:><w><q>` <br>
+3. I used the `vim` command to open the `ListExamples.java` file. Then I moved the cursor to line 44(where the bug is) using `:44`. I then held shift and moved right to skip the entire first word, which was `index1`, then moved left. Then I switch the vim mode to insert mode by pressing `<i>`and pressed `backspace` to delete the 1. Then, I typed `2` and pressed `<ctrl-c>` to exit insert mode. Then I typed `:wq` in command mode to save and exit the vim file, saving the changes made.
 ## Step 8
 ### Run the Passing Tests
 1. <br>![Image](TestPassed.png) <br>
-2. 2
-3. 2
+2. `<b><a><s><h><space><t><e><tab><enter>` <br>
+3. I re-ran the test file using bash, and this time both tests passed as shown in the image above.
 ## Step 9
 ### Commit and Push Changes
 1. <br>![Image](GitStatus.png) <br> ![Image](GitCommit.png) <br> ![Image](GitPush.png) <br>

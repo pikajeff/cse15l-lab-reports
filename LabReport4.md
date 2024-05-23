@@ -1,9 +1,9 @@
 # LAB REPORT 4
 ## Step 4 
 ### Log into ieng6
-1. ![Image](LR3Symptom.png) <br>
-3. e
-4. 4
+1. <br> ![Image](LR3Symptom.png) <br>
+2. e
+3. 4
 ## Step 5
 ### Clone Lab 7 Repository
 1. ![Image](GitCloneSSH.png) <br>

@@ -13,7 +13,7 @@
 ### Run the Failing Tests
 1. <br>![Image](TestFailure.png) <br>
 2. `<c><d><space><l><a><tab><enter>` <br> `<b><a><s><h><space><t><e><s><tab><enter>` <br>
-3. I used the `cd` command along with <l><a> and <tab> to autofil the rest of the directory. This command changed my directory to the `lab7` directory. Then I ran `bash test.sh`, using <tab> to autofil again, in order to run my test.sh tests. As the image shows, 2 tests were run, and 1 failed.
+3. I used the `cd` command along with `<l><a>` and `<tab>` to autofil the rest of the directory. This command changed my directory to the `lab7` directory. Then I ran `bash test.sh`, using `<tab>` to autofil again, in order to run my test.sh tests. As the image shows, 2 tests were run, and 1 failed.
 ## Step 7
 ### Edit the Code using Vim
 1. <br>![Image](VimFile.png) <br> ![Image](BuggedLine.png) <br>

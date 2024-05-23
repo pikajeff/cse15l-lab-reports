@@ -1,9 +1,9 @@
 # LAB REPORT 4
 ## Step 4 
 ### Log into ieng6
-1. <br> 
-2. e
-3. 4
+1. <br> ![Image](SSHLogin.png) <br>
+2. `<s><s><h><space><ctrl-shift-v><enter>`<br>
+3. I copied my ieng6 user name and used `ssh` to log into my ieng6 server. I don't need to type in a password because I had set up the ssh keys in Lab 3.
 ## Step 5
 ### Clone Lab 7 Repository
 1. <br>![Image](GitCloneSSH.png) <br>

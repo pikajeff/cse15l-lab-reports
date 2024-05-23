@@ -27,5 +27,5 @@
 ## Step 9
 ### Commit and Push Changes
 1. <br>![Image](GitStatus.png) <br> ![Image](GitCommit.png) <br> ![Image](GitPush.png) <br>
-2. `<g><i><t><space><s><t><a><t><u><s><tab><enter>` <br> <g><i><t><space><c><o><m><m><tab><-><a><space><-><m><space><"><f><i><x><e><d><space><t><h><e><space><b><u><g><"><enter> <br> <g><i><t><space><p><u><s><tab><o><r><tab><m><a><tab><enter><br>
+2. `<g><i><t><space><s><t><a><t><u><s><tab><enter>` <br> `<g><i><t><space><c><o><m><m><tab><-><a><space><-><m><space><"><f><i><x><e><d><space><t><h><e><space><b><u><g><"><enter>` <br> `<g><i><t><space><p><u><s><tab><o><r><tab><m><a><tab><enter>` <br>
 3. I used `git status` to review the state of my changes. It shows the files that I modified. Then I used  `git commit -a -m "fixed the bug"` to save/commit the changes with the given message to my local repository. Then I used `git push ` to push my changes to the `origin` remote and  `main` branch. The changes were commited and pushed as seen in the images above.

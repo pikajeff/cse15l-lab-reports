@@ -22,8 +22,8 @@
 ## Step 8
 ### Run the Passing Tests
 1. <br>![Image](TestPassed.png) <br>
-2. `<b><a><s><h><space><t><e><tab><enter>` <br>
-3. I re-ran the test file using bash, and this time both tests passed as shown in the image above.
+2. `<up><up>` OR <b><a><s><h><space><t><e><tab><enter>` 
+3. I re-ran the test file using bash (using the up key twice, because the command was in my history) and this time both tests passed as shown in the image above.
 ## Step 9
 ### Commit and Push Changes
 1. <br>![Image](GitStatus.png) <br> ![Image](GitCommit.png) <br> ![Image](GitPush.png) <br>
